@@ -28,10 +28,9 @@
         <div class="mb-3">
         <select id="categorias_id" name="categorias_id" class="form-select" aria-label="Default select example">
         <option selected>Selecciona una categoría</option>
-        <option value="1" >Poleras</option>
-        <option value="2" >Polerón</option>
-        <option value="3" >Pantalón</option>
-         </select>
+        <option value="1" >Alimentos</option>
+        <option value="2" >Higiene</option>
+           </select>
             
         </div>
         <div class="mb-3">

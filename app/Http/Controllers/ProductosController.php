@@ -58,7 +58,7 @@ class ProductosController extends Controller
         ]);
     }
     
-    /*VAMOS A INCLUIR EDITAR DESPUES.*/
+  
     public function patch($id){
                    
     
@@ -80,6 +80,15 @@ class ProductosController extends Controller
             'productos' => $productos
         ]);
             
+     }
+
+     public function CargaI(){
+
+ 
+        return view('cargaimagen', [
+            
+         ]);
+ 
      }
 
 

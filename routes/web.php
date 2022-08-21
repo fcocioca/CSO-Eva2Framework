@@ -36,7 +36,11 @@ Route::get('/eliminarProductos/{id}', [ProductosController::class, 'delete']);
 Route::get('/eliminarProductosSucursales/{id}', [ProductosSucursalesController::class, 'delete']);
 Route::get('/mostrarProductosSucursales/{id}', [ProductosSucursalesController::class, 'show']);
 Route::get('/verProductosSucursales/{id}', [ProductosSucursalesController::class, 'ver']);
-Route::get('/editarProductos/{id}', [ProductosController::class, 'update']);
+Route::get('/editarProductos/{id}', [ProductosController::class, 'patch']);
+
+Route::get('/cargaimagen', function () {
+    return view('cargaimagen');
+});
 
 
 

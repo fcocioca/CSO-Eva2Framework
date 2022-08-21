@@ -21,7 +21,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="{{ url('/index') }}">Home</a>
+          <a class="nav-link active" aria-current="page" href="{{ url('/index') }}">Inicio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/productos/create">Ingresar Productos</a>
@@ -33,10 +33,13 @@
           <a class="nav-link" href="/productos">Lista de Productos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/productossucursales">Lista de productos por sucursales</a>
+          <a class="nav-link" href="/productossucursales">Productos por sucursales</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/productossucursales/show">Buscar Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url('/cargaimagen') }}">Cargar Imagen</a>
         </li>
       </ul>
     </div>

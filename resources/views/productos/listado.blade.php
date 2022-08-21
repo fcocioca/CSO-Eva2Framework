@@ -25,8 +25,8 @@
         <td>{{$producto->nombre}}</td>
         <td>{{$producto->coduni}}</td>
         <td>{{$producto->categoria_id}}</td>   
-        <td>{{$producto->desc}}</td> 
-        <td><a href="" class="btn btn-outline-secondary">Editar</a><a href="/eliminarProductos/{{ $producto->id }}" class="btn btn-outline-danger">Eliminar</a></td>   
+        <td>{{Str::limit($producto->desc,25) }}</td> 
+        <td><a href="/editarProductos/{{ $producto->id }}" class="btn btn-outline-secondary">Editar</a><a href="/eliminarProductos/{{ $producto->id }}" class="btn btn-outline-danger">Eliminar</a></td>   
        </tr>
        @endforeach
             </tbody>
